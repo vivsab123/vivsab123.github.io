@@ -14,26 +14,34 @@ body {
     font-size: 60px;
   } 
 
-button {
-    background-color: white;
+  h2 {
+    font-size: 40px;
+    color: white;
+  }
+
+.selector-container {
     border: none;
     color: black;
-    border-color: yellow;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
-    padding: 10px;
-    font-family: 'pacifico', cursive;
+    font-size: 40px;
+      font-family: 'pacifico', cursive;
   }
+
+#girlsSelector {
+  font-size: 2rem;
+  font-family: 'Pacifico', cursive;
+}
 
 .doorbox {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 500px;
+    width: 100%;
+    padding: 10px;
 }
 
 #door1, #door2, #door3 {
-    padding: 20px;
+    padding: 5%;    
 }
